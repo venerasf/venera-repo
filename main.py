@@ -57,11 +57,11 @@ class Repo:
 
 if __name__ == "__main__":
     x = Repo(
-        "/home/farinap/go/src/venera/scripts",
+        ".",
         "farinap5 <null>",
         1.0,
         "Default Package From Venera",
-        "http://0.0.0.0:8000")
+        "http://r.venera.farinap5.com")
     x.Enum()
     x.Target()
     f = open("./package.yaml",'w')
