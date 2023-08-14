@@ -36,11 +36,11 @@ class Repo:
         self.targets = []
         for i in self.Path:
             target = {
-                "script":       self.URL+i[len(self.Root):],
+                "script":       i[len(self.Root):],
                 "description":  self.Desc(i),
                 "version":      self.Version(i),
                 "hash":         self.TakeHash(i),
-                "path":         i[len(self.Root):],
+                "path":         self.URL+i[len(self.Root):],
                 "tags":         ["tags"]
             }
             self.targets.append(target)
