@@ -14,7 +14,7 @@ This guide will help you set up and use a customized repository for organizing a
 
 Create the repository with the codes organized my folders. To compile your package with references to download the scripts, run the `main.py` script.
 
-Before running main.py, you need to configure your repository URL, name, and email. Open main.py and locate the following configuration block:
+Before running `main.py`, you need to configure it. Open main.py and locate the following configuration block:
 
 ```python
     repo_conf = Repo(

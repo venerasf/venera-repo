@@ -2,16 +2,37 @@ author: farinap5 <null>
 description: Default Package From Venera
 target:
 - description: null
-  hash: dd0b6586bc70de62b05af2660220e5c4
-  path: http://r.venera.farinap5.com/myscripts/meynewsc.lua
-  script: /myscripts/meynewsc.lua
+  hash: f3550d84bdabbc2e665c213daebc39a3
+  path: http://r.venera.farinap5.com/cve/cve-2021/CVE-2021-40978.lua
+  script: /cve/cve-2021/CVE-2021-40978.lua
   tags:
   - tags
   version: 1.0
 - description: null
-  hash: 66fa7ad29404ebb294f831cfc324dd95
-  path: http://r.venera.farinap5.com/web/trace.lua
-  script: /web/trace.lua
+  hash: 839967e92e9d5a71f1601425ebcd655b
+  path: http://r.venera.farinap5.com/cve/cve-2011/vsftpd-2.3.4.lua
+  script: /cve/cve-2011/vsftpd-2.3.4.lua
+  tags:
+  - tags
+  version: 1.0
+- description: null
+  hash: e82b9f65eb24e9dc7d55f0b1975d9734
+  path: http://r.venera.farinap5.com/cve/cve-2006/cve-2006-3392.lua
+  script: /cve/cve-2006/cve-2006-3392.lua
+  tags:
+  - tags
+  version: 1.0
+- description: null
+  hash: 34d32cfdb3fa8e7d3e749c4392ef47c4
+  path: http://r.venera.farinap5.com/cve/cve-2014/CVE-2014-6271.lua
+  script: /cve/cve-2014/CVE-2014-6271.lua
+  tags:
+  - tags
+  version: 1.0
+- description: null
+  hash: 1d26b57062357390356f7b0fc8188b89
+  path: http://r.venera.farinap5.com/cms/wp_user_enum.lua
+  script: /cms/wp_user_enum.lua
   tags:
   - tags
   version: 1.0
@@ -23,6 +44,13 @@ target:
   - tags
   version: 1.0
 - description: null
+  hash: 66fa7ad29404ebb294f831cfc324dd95
+  path: http://r.venera.farinap5.com/web/trace.lua
+  script: /web/trace.lua
+  tags:
+  - tags
+  version: 1.0
+- description: null
   hash: b5657a91224b9fe79f4dc4e3b7c96b34
   path: http://r.venera.farinap5.com/web/gen_ssti_jinja.lua
   script: /web/gen_ssti_jinja.lua
@@ -30,16 +58,16 @@ target:
   - tags
   version: 1.0
 - description: null
-  hash: de2458b550611167d7d014e88adefad2
-  path: http://r.venera.farinap5.com/test/test.lua
-  script: /test/test.lua
+  hash: dd0b6586bc70de62b05af2660220e5c4
+  path: http://r.venera.farinap5.com/myscripts/meynewsc.lua
+  script: /myscripts/meynewsc.lua
   tags:
   - tags
   version: 1.0
 - description: null
-  hash: 361c86171ea41a0d549bf38d10cf0535
-  path: http://r.venera.farinap5.com/test/http.lua
-  script: /test/http.lua
+  hash: 9be07643a630f056a6f95ef9db37841e
+  path: http://r.venera.farinap5.com/test/test1.lua
+  script: /test/test1.lua
   tags:
   - tags
   version: 1.0
@@ -51,6 +79,13 @@ target:
   - tags
   version: 1.0
 - description: null
+  hash: 79d7b360d6874baea02658fbc584974b
+  path: http://r.venera.farinap5.com/test/sqlitest.lua
+  script: /test/sqlitest.lua
+  tags:
+  - tags
+  version: 1.0
+- description: null
   hash: a23a6890343597d243f296784964385c
   path: http://r.venera.farinap5.com/test/input.lua
   script: /test/input.lua
@@ -58,9 +93,9 @@ target:
   - tags
   version: 1.0
 - description: null
-  hash: d906fd2914aabd9851688a89cf4a8f99
-  path: http://r.venera.farinap5.com/test/base64.lua
-  script: /test/base64.lua
+  hash: de2458b550611167d7d014e88adefad2
+  path: http://r.venera.farinap5.com/test/test.lua
+  script: /test/test.lua
   tags:
   - tags
   version: 1.0
@@ -79,16 +114,16 @@ target:
   - tags
   version: 1.0
 - description: null
-  hash: 9be07643a630f056a6f95ef9db37841e
-  path: http://r.venera.farinap5.com/test/test1.lua
-  script: /test/test1.lua
+  hash: 4f03780bdaf57e432dfd1eda6c4f837a
+  path: http://r.venera.farinap5.com/test/regex.lua
+  script: /test/regex.lua
   tags:
   - tags
   version: 1.0
 - description: null
-  hash: 79d7b360d6874baea02658fbc584974b
-  path: http://r.venera.farinap5.com/test/sqlitest.lua
-  script: /test/sqlitest.lua
+  hash: 361c86171ea41a0d549bf38d10cf0535
+  path: http://r.venera.farinap5.com/test/http.lua
+  script: /test/http.lua
   tags:
   - tags
   version: 1.0
@@ -100,31 +135,10 @@ target:
   - tags
   version: 1.0
 - description: null
-  hash: 4f03780bdaf57e432dfd1eda6c4f837a
-  path: http://r.venera.farinap5.com/test/regex.lua
-  script: /test/regex.lua
+  hash: d906fd2914aabd9851688a89cf4a8f99
+  path: http://r.venera.farinap5.com/test/base64.lua
+  script: /test/base64.lua
   tags:
   - tags
   version: 1.0
-- description: null
-  hash: 34d32cfdb3fa8e7d3e749c4392ef47c4
-  path: http://r.venera.farinap5.com/cve/cve-2014/CVE-2014-6271.lua
-  script: /cve/cve-2014/CVE-2014-6271.lua
-  tags:
-  - tags
-  version: 1.0
-- description: null
-  hash: f3550d84bdabbc2e665c213daebc39a3
-  path: http://r.venera.farinap5.com/cve/cve-2021/CVE-2021-40978.lua
-  script: /cve/cve-2021/CVE-2021-40978.lua
-  tags:
-  - tags
-  version: 1.0
-- description: null
-  hash: 1d26b57062357390356f7b0fc8188b89
-  path: http://r.venera.farinap5.com/cms/wp_user_enum.lua
-  script: /cms/wp_user_enum.lua
-  tags:
-  - tags
-  version: 1.0
-version: 1.0
+version: 1.1

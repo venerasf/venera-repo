@@ -59,7 +59,7 @@ if __name__ == "__main__":
     x = Repo(
         ".",
         "farinap5 <null>",
-        1.0,
+        1.1,
         "Default Package From Venera",
         "http://r.venera.farinap5.com")
     x.Enum()
