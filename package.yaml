@@ -2,6 +2,13 @@ author: farinap5 <null>
 description: Default Package From Venera
 target:
 - description: null
+  hash: 80e602d544435002cf32f1b94a6152a5
+  path: http://r.venera.farinap5.com/cve/cve-2021/CVE-2021-27748.lua
+  script: /cve/cve-2021/CVE-2021-27748.lua
+  tags:
+  - tags
+  version: 1.0
+- description: null
   hash: f3550d84bdabbc2e665c213daebc39a3
   path: http://r.venera.farinap5.com/cve/cve-2021/CVE-2021-40978.lua
   script: /cve/cve-2021/CVE-2021-40978.lua
@@ -19,6 +26,20 @@ target:
   hash: e82b9f65eb24e9dc7d55f0b1975d9734
   path: http://r.venera.farinap5.com/cve/cve-2006/cve-2006-3392.lua
   script: /cve/cve-2006/cve-2006-3392.lua
+  tags:
+  - tags
+  version: 1.0
+- description: null
+  hash: d2b01e5a55fbb18a23167fd24a64efb3
+  path: http://r.venera.farinap5.com/cve/cve-2017/syncb/SyncBreeze-10.0.28-c.lua
+  script: /cve/cve-2017/syncb/SyncBreeze-10.0.28-c.lua
+  tags:
+  - tags
+  version: 1.0
+- description: null
+  hash: 77c4f2baff5ef3abd048d2a1e8946531
+  path: http://r.venera.farinap5.com/cve/cve-2017/syncb/SyncBreeze-10.0.28-e.lua
+  script: /cve/cve-2017/syncb/SyncBreeze-10.0.28-e.lua
   tags:
   - tags
   version: 1.0
